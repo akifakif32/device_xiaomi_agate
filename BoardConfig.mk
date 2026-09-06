@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The Infinity-X Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -13,6 +13,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2023-10-01

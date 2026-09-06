@@ -1,15 +1,22 @@
 #
-# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The Infinity-X Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/agate/device.mk)
 
-# Inherit LineageOS product
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit Infinity-X product
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_agate
+# Infinity-X Specific Flags
+INFINITY_BUILD_TYPE := OFFICIAL
+INFINITY_MAINTAINER := "akif"
+TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GAPPS := true
+TARGET_SUPPORTS_BLUR := true
+
+PRODUCT_NAME := infinity_agate
 PRODUCT_DEVICE := agate
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

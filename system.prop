@@ -1,0 +1,6 @@
+#Infinity Flags
+ro.product.marketname=Xiaomi 11T
+ro.infinity.soc=MediaTek Dimensity 1200
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2400, 120 Hz
+ro.infinity.camera=108MP + 8MP + 5MP
