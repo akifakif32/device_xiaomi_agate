@@ -19,7 +19,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'hardware/mediatek',
-    "hardware/mediatek/libaedv",
+    'hardware/mediatek/libaedv',
     'hardware/xiaomi',
     'vendor/xiaomi/mt6893-common',
 ]
