@@ -1,19 +1,19 @@
 # Unpinned blobs from agate_global-user 13 TP1A.220624.014 V14.0.6.0.TKWMIXM release-keys
 
-audio_dsp.img;AB
-cam_vpu1.img;AB
-cam_vpu2.img;AB
-cam_vpu3.img;AB
-dtbo.img;AB
-dpm.img;AB
-gz.img;AB
-lk.img;AB
-mcupm.img;AB
-md1img.img;AB
-mitee.img;AB
-pi_img.img;AB
-preloader_agate.bin:preloader_raw.img;AB
-scp.img;AB
-spmfw.img;AB
-sspm.img;AB
-tee.img;AB
+audio_dsp.img;AB|8daafe6b05ed03c39ae3455ebc4e552982eeb4a5
+cam_vpu1.img;AB|a745614c02fde9a3d2d7c81074297d1138b5c7d4
+cam_vpu2.img;AB|7933310f65f6239a6f334ee95cc25e5dff0e0862
+cam_vpu3.img;AB|60441c63122cf6925e2d0389827913ef06c1515c
+dtbo.img;AB|8fa40af58e98bd05544dabe7ba9ab25b955f2981
+dpm.img;AB|2e593481daf1577a7284298a377ba69c69dcca2f
+gz.img;AB|4303c824494348be34bf53f733cb91bede610bdb
+lk.img;AB|605ede19de841a692611823c0972893bc3d4dcdd
+mcupm.img;AB|5f3173b1d41e5178a822753cb95cc88cf3463e40
+md1img.img;AB|1ccb5702a746b133df4b036db7c1cc9c1ac54598
+mitee.img;AB|58c159ab3b2f4274706124b3fb1f2f437f6b6ef5
+pi_img.img;AB|83bb537162398e8d7ba308fe536a880e5be20d6a
+preloader_agate.bin:preloader_raw.img;AB|35ea4e94d2dfe957ac5b5be1c4f3c94c3cff500b
+scp.img;AB|2723a96b222c326ed54f10f1d2af2f58525d5de0
+spmfw.img;AB|23344fae982b9f597aba62092fdc56f6c266ade8
+sspm.img;AB|4e471126d17ade8396803966d8d1f3bc33fc05a3
+tee.img;AB|0ded8eaeec53a736474be3501dd9732c5c9e16f5
