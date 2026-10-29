@@ -509,8 +509,6 @@ vendor/lib64/libmialgo_ie_capture.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmialgo_video_enhance.so
-vendor/lib64/libmialgoengine.so;DISABLE_CHECKELF
-vendor/lib64/libmialgoengine2.so
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_mt6873.so
 vendor/lib64/libmpbase.so
