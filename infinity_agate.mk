@@ -6,6 +6,9 @@
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/agate/device.mk)
 
+# The stock MiuiCamera replaces Aperture
+PRODUCT_NO_CAMERA := true
+
 # Inherit Infinity-X product
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
