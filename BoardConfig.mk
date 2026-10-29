@@ -23,3 +23,4 @@ include device/xiaomi/mt6893-common/BoardConfigCommon.mk
 
 # Inherit the proprietary files
 include vendor/xiaomi/agate/BoardConfigVendor.mk
+include vendor/xiaomi/agate-miuicamera/BoardConfigVendor.mk

@@ -37,6 +37,9 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libutils.so', 'libutils-v32.so'),
     ('vendor/lib64/libSQLiteModule_VER_ALL.so', 'vendor/lib64/lib3a.flash.so', 'vendor/lib64/lib3a.ae.stat.so', 'vendor/lib64/lib3a.sensors.color.so', 'vendor/lib64/lib3a.sensors.flicker.so', 'vendor/lib64/libaaa_ltm.so'): blob_fixup()
         .add_needed('liblog.so'),
+    # Camera HAL blobs must use the legacy libui, the A17 GraphicBuffer breaks video mode
+    ('vendor/lib64/libcam.hal3a.v3.platform.so', 'vendor/lib64/libcam.hal3a.v3.so', 'vendor/lib64/libcam.halisp.common.so', 'vendor/lib64/libcam.halisp.so', 'vendor/lib64/libcam.isptuning.so', 'vendor/lib64/libeffecthal.base.so', 'vendor/lib64/libmtkcam_3rdparty.customer.so', 'vendor/lib64/libmtkcam_grallocutils.so'): blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
     'vendor/bin/hw/camerahalserver': blob_fixup()
         .binary_regex_replace(b'/system/lib64', b'/vendor/lib64'),
 }  # fmt: skip
