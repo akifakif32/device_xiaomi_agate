@@ -42,6 +42,10 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libui.so', 'libui-v34.so'),
     'vendor/bin/hw/camerahalserver': blob_fixup()
         .binary_regex_replace(b'/system/lib64', b'/vendor/lib64'),
+    # A17'de android_ver=17 oldugu icin libsdk_sr yanlis OpenCL binary secip CL_INVALID_BINARY ile cokuyor:
+    # surum okuyan 'bl atoi' -> 'mov w0, #12' (stok A12 davranisi).
+    'vendor/lib64/libsdk_sr.so': blob_fixup()
+        .sig_replace('E2 28 FF 97 60 22 00 B9', '80 01 80 52 60 22 00 B9'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
