@@ -16,7 +16,7 @@
         </point>
     </screenBrightnessMap>
     <!-- root node for HBM-->
-    <highBrightnessMode enabled="true">
+    <highBrightnessMode enabled="false">
         <!-- Transition point brightness from normal to HBM mode -->
         <transitionPoint>0.4998779</transitionPoint>
         <!-- Minimum lux to enter HBM -->
